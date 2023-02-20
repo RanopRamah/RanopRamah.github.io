@@ -7,16 +7,13 @@
 jQuery(document).ready(function() {
 
     "use strict";
-    // var element = $('#website')
-    // var list = element.closest('.iknow_tm_portfolio').find('.portfolio_list').children('.gallery_zoom');
-    // list.isotope({
-    //     filter: '.web',
-    //     animationOptions: {
-    //         duration: 750,
-    //         easing: 'linear',
-    //         queue: false
-    //     }
-    // });
+
+    $('#a-portfolio').click(function() {
+        setTimeout(() => {
+            $('#website').click()
+        }, 500);
+
+    })
 
 
     // here all ready functions
@@ -153,7 +150,7 @@ function iknow_tm_portfolio() {
 
         // Needed variables
         var filter = jQuery('.iknow_tm_portfolio .portfolio_filter ul');
-        $('.app').toggleClass('appActive');
+
         if (filter.length) {
 
             // Isotope Filter 

@@ -3188,7 +3188,7 @@ body.dark .loader_line:after {
     height: 90px;
     min-width: 90px;
     border-radius: 100%;
-    background-color: #ffb324;
+    background-color: #5a5def;
 }
 
 .iknow_tm_contact .wrapper .left ul li .list_inner .icon .svg {
@@ -3222,7 +3222,7 @@ body.dark .loader_line:after {
 }
 
 .iknow_tm_contact .wrapper .left ul li .list_inner .short span a:hover {
-    color: #ff451b;
+    color: #4447f1;
 }
 
 .iknow_tm_contact .wrapper .right {
