@@ -502,11 +502,12 @@ body.dark .loader_line:after {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
-    margin-bottom: 5px !important;
+    /* margin-bottom: 5px !important; */
 }
 
 .iknow_tm_topbar .logo {
     display: inline-block;
+    margin-top: 15px;
 }
 
 .iknow_tm_topbar .logo img {
@@ -681,7 +682,7 @@ body.dark .loader_line:after {
     justify-content: space-between;
     min-height: calc(100vh - 150px);
     padding-top: 135px;
-    margin-bottom: 10px !important;
+    /* margin-bottom: 10px !important; */
 }
 
 .iknow_tm_hero .left {
@@ -3553,7 +3554,7 @@ input[type=number] {
 .iknow_tm_hero_second .right .image .third {
     width: 165px;
     height: 365px;
-    background-color: #ffb324;
+    background-color: #8688f1;
     top: -30px;
     right: -30px;
 }
@@ -4725,7 +4726,7 @@ input[type=number] {
 .iknow_tm_hero_extra .hero_content .left .text {
     font-size: 23px;
     color: #fff;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 }
 
 .iknow_tm_hero_extra .hero_content .right {
